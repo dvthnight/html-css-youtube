@@ -1,0 +1,29 @@
+@media screen and (max-width:800px) {
+    .menu-item{
+        flex-direction: column;
+        font-size: 10px;
+        align-content: center;
+        padding: 10px 0;
+    }
+
+    .side-bar{
+        width: 60px;
+    }
+
+    .menu-item .icon{
+        margin: 0;
+    }
+
+    .widget{
+        padding: 0;
+        border: none;
+    }
+
+    .ghost{
+        display: none;
+    }
+
+    .widget:first-child{
+        padding-top: 10px;
+    }
+}
