@@ -34,3 +34,38 @@
         display: none;
     }
 }
+
+
+@media screen and (max-width: 509px) {
+    
+    .play-list{
+        flex-wrap: wrap;
+    }
+
+    .play-list-item{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 510px) and (max-width: 890px) {
+    .play-list{
+        flex-wrap: wrap;
+    }
+
+    .play-list-item{
+        width: 50%;
+    }
+
+}
+
+
+@media screen and (min-width: 891px) and (max-width: 1140px) {
+    .play-list{
+        flex-wrap: wrap;
+    }
+
+    .play-list-item{
+        width: 32%;
+    }
+
+}
